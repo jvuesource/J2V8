@@ -23,6 +23,7 @@ class ShellBuildSystem(BuildSystem):
 
         build_cmd = config.custom_cmd or " && ".join(config.build(config))
         shell_str = self.inject_env("cd $BUILD_CWD && " + build_cmd, config)
+        print ("shell_str => " + shell_str)
 
         self.exec_cmd(shell_str, config)
 
