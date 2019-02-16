@@ -2,7 +2,7 @@
 
 1. clone the source code from the forked [J2V8 GitHub repository](https://github.com/jvuesource/J2V8)
 2. run `j2v8-cli.cmd` (on Win32) or `source j2v8-cli.sh` on MacOS / Linux  
-3. TYR `git clone https://github.com/jvuesource/node.git`    
+3. TYR `git clone https://github.com/jvuesource/node.git --config core.autocrlf=false --depth 1 --branch v7.4.0`    
 OR     
 `nodejs git clone` to clone the Node.js/V8 source code
 4. !!! THIS STEP IS NO NEED FOR jvuesource NODE VERSION !!!   
