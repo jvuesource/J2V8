@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # This script adds aliases for some of the most often used commands for building J2V8
 # to your current command-shell instance. (can be invoked as "source j2v8-cli.sh")
 alias build="python build.py"
