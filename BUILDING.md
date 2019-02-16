@@ -1,6 +1,6 @@
 # Getting started / building from source
 
-1. clone the source code from the [J2V8 GitHub repository](https://github.com/eclipsesource/J2V8)
+1. clone the source code from the forked [J2V8 GitHub repository](https://github.com/jvuesource/J2V8)
 2. run `j2v8-cli.cmd` (on Win32) or `source j2v8-cli.sh` on MacOS / Linux  
 3. TYR `git clone https://github.com/jvuesource/node.git`    
 OR     
