@@ -2,6 +2,7 @@
 /target/
 /obj/
 /build/
+/node/
 /node.out/
 /.vscode/
 /.metadata/
