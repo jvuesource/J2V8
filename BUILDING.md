@@ -1,10 +1,17 @@
 # Getting started / building from source
 
 1. clone the source code from the [J2V8 GitHub repository](https://github.com/eclipsesource/J2V8)
-2. run `j2v8-cli.cmd` (on Win32) or `source j2v8-cli.sh` on MacOS / Linux
-3. `nodejs git clone` to clone the Node.js/V8 source code
-4. `nodejs diff apply` to apply the required modifications to the Node.js source code
-5. start the desired J2V8 build either via `build -i` or `build ...args` (see below for details)
+2. run `j2v8-cli.cmd` (on Win32) or `source j2v8-cli.sh` on MacOS / Linux  
+3. TYR `git clone https://github.com/jvuesource/node.git`    
+OR     
+`nodejs git clone` to clone the Node.js/V8 source code
+4. !!! THIS STEP IS NO NEED FOR jvuesource NODE VERSION !!!   
+do nothing   
+OR   
+`nodejs diff apply` to apply the required modifications to the Node.js source code
+5. start the desired J2V8 build either via `build -i`            
+OR           
+`build ...args` (see below for details)
 
 # Build-System CLI
 
