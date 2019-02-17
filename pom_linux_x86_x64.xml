@@ -23,7 +23,7 @@
   <groupId>com.eclipsesource.j2v8</groupId>
   <artifactId>j2v8_linux_x86_64</artifactId>
   <version>4.8.3</version>
-  <packaging>bundle</packaging>
+  <packaging>jar</packaging>
 
   <name>j2v8_linux_x86_64</name>
   <description>J2V8 is a set of Java bindings for V8</description>
