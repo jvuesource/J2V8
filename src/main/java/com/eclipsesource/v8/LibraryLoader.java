@@ -133,11 +133,6 @@ class LibraryLoader {
     }
 
     static boolean extract(String libPath, boolean withLinuxVendor, StringBuffer message) {
-        // first,infer short and extrat it
-        String libShortName = computeLibraryShortName(withLinuxVendor);
-        if (extract(libPath + SEPARATOR + libShortName, libShortName, message)) {
-            return true;
-        }
         String libFullName = computeLibraryFullName(withLinuxVendor);
         return extract(libPath + SEPARATOR + libFullName, libFullName, message);
     }
